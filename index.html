@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  
+  <link href="src/index.js"/>
+    </head>
+
+  <body class="border mt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <form>
+            <div class="mb-3">
+              <input type="text" placeholder="Enter location" class="form-control" autocomplete = "off" id="searchEngine">
+        </div>
+            </form>
+        <div class="current-weather">
+         <img src="images/cloudy.png" alt="cloudy" class="cloudy"/>
+        <br />
+        <br />
+        <p>
+          Precipitation: 68% <br />
+          Wind: 1km/h
+        </p>   
+        </div>
+        
+      </div>
+      <div class="col-sm-4">
+        <button type="button" class="btn btn-primary btn-lg rounded-pill" id="button-1">Search</button> 
+        <button type="button" class="btn btn-primary btn-lg rounded-pill" id="button-2">Current Location</button>       
+        <div class="current-city">
+<h3><div id = "typeCity">
+  London</div>
+   <div id = "typeTemp">18°</div>
+   <span class = "units">
+      <a href = "#" id="celsius-link">°C </a>
+      <span> | </span>
+      <a href = "#" id="fahrenheit-link">°F </a>
+ 
+    </span></h3>
+   
+        <p>
+          <span id="dateTime"></span><br />
+          <span id="timeDate"></span>
+        </p>
+        </div>
+      </div>
+      
+          <div class="col-sm-4" id="forecast">
+              <div>
+                 <img src="images/rainy.png" id="images-column" alt="rainy" width="50">Monday
+              </div>
+              <br />
+              <div>
+                <img src="images/rainy.png" id="images-column" alt="rainy" width="50">Tuesday
+            </div>
+            <br />
+            <div>
+                <img src="images/rainy.png" id="images-column" alt="rainy" width="50"> Wednesday
+            </div> 
+            <br />
+            <div>
+                <img src="images/rainy.png" id="images-column" alt="rainy" width="50"> Thursday
+            </div> 
+            <br />
+            <div>
+                <img src="images/rainy.png" id="images-column" alt="rainy" width="50"> Friday
+            </div> 
+    </div>
+  </div>
+ <a href="https://github.com/Dashasoham/1st-Repository" target="_blank"> Open-source code</a> 
+ by Daria Korniienko
+
+  <script src="src/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+</body>
+</html>

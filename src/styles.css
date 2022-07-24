@@ -1,0 +1,62 @@
+body {
+  margin: 20px;
+  padding: 20px 10px 0;
+  width: fit-content;
+  border-radius: 1%;
+}
+
+.current-weather {
+  margin-top: 50px;
+  padding: 10px;
+}
+.cloudy {
+  width: 200px;
+  display: block;
+  position: relative;
+  left: -5px;
+}
+.current-weather p {
+  color: #7c848b;
+}
+
+.current-city {
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+.current-city h3 {
+  font-size: 40px;
+}
+.current-city p {
+  color: #7c848b;
+  position: relative;
+  left: 55px;
+}
+.units {
+  font-size: 15px;
+}
+#button-1 {
+  position: relative;
+  top: -5px;
+  border-radius: 50%;
+}
+#button-2 {
+  position: relative;
+  top: 300px;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+#forecast {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+#images-column {
+  position: relative;
+  left: -10px;
+}
