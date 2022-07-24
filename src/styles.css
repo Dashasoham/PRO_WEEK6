@@ -42,7 +42,8 @@ body {
 }
 #button-2 {
   position: relative;
-  top: 300px;
+  top: 340px;
+  left: 250px;
   width: 100px;
   height: 50px;
   font-size: 15px;
